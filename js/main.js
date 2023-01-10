@@ -10,6 +10,6 @@ fetch(url)
       title.innerHTML = value.title;
       body.innerHTML = value.body;
 
-      document.body.append(card);
+      list.append(card);
     }
   });
